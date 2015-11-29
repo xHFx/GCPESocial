@@ -12,7 +12,7 @@ use GameCraftPE\config\website;
 use GameCraftPE\config\github;
 use GameCraftPE\config\facebook;
 use GameCraftPE\config\youtube;
-**/
+
 class Main extends PluginBase implements Listener{
 	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
