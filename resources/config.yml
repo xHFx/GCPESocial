@@ -8,7 +8,9 @@
 #@@@@@@@@@@@@@@@@@@@@@@@@@@#
 #
 yt1: "Our Youtube is"
-yt2: "youtube.com/..."
+yt2: "https://goo.gl/WhS1nw"
+#
+# Shortened the URL.
 #
 #@@@@@@@@@@@@@@@@@@@@@@@@@@#
 #           GitHub         #
@@ -18,11 +20,11 @@ git1: "Our GitHub is"
 git2: "https://github.com/GameCraftPE"
 #
 #@@@@@@@@@@@@@@@@@@@@@@@@@@#
-#          Twitter         #
+#         FACEBOOK         #
 #@@@@@@@@@@@@@@@@@@@@@@@@@@#
 #
-twit1: "Our Twitter Is"
-twit2: "www.twitter.com/..."
+fb1: "Our Facebook Is"
+fb2: "www.facebook.com/gamecraftpe"
 #
 #@@@@@@@@@@@@@@@@@@@@@@@@@@#
 #           Website       #
