@@ -1,0 +1,40 @@
+---
+######################################################
+# GameCraftPEStaff Created by TheDeibo, and Driesboy #
+######################################################
+#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#          YOUTUBE         #
+#@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#
+yt1: "Our Youtube is"
+yt2: "youtube.com/..."
+#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#           GitHub         #
+#@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#
+git1: "Our GitHub is"
+git2: "https://github.com/GameCraftPE"
+#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#          Twitter         #
+#@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#
+twit1: "Our Twitter Is"
+twit2: "www.twitter.com/..."
+#
+#@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#           Website       #
+#@@@@@@@@@@@@@@@@@@@@@@@@@@#
+#
+web1: "Our Website is"
+web2: "www.gamecraftpe.tk/"
+#
+#If you require more social Media,
+#you will need to edit the plugin, 
+#or contact Driesboy or TheDeibo!
+#
+#Please do not add more Staff slots!
+#It may corrupt the config file!
+...
