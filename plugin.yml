@@ -8,9 +8,36 @@ commands:
     social:
         usage: /social
         description: Shows a list of all social stuff.
+        permission: gamecraftpe.social
+    website:
+        usage: /website
+        description: Displays Website URL
+        permission: gamecraftpe.website
+    fabebook:
+        usage: /facebook
+        description: Displays Facebook URL
+        permission: gamecraftpe.facebook
+    github:
+        usage: /github
+        description: Displays GitHub URL
+        permission: gamecraftpe.github
+    youtube:
+        usage: /youtube
+        description: Displays YouTube URL
+        permission: gamecraftpe.youtube
 permissions:
     gamecraftpe.social:
         default: true
         description: Allows user to use /social
-        
-#SIDE NOTE - SOCIAL WILL BE MADE IN THE MAIN PLUGIN
+    gamecraftpe.website:
+        default: true
+        description: Allows user to use /website
+    gamecraftpe.facebook:
+        default: true
+        description: Allows user to use /facebook
+    gamecraftpe.github:
+        default: true
+        description: Allows user to use /github
+    gamecraftpe.youtube:
+        default: true
+        description: Allows user to use /youtube
