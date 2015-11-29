@@ -1,0 +1,16 @@
+name: GCPESocial
+description: Allows users to view all server social stuff.
+main: GameCraftPE\Main
+load: POSTWORLD
+version: 1.2.0
+api: 1.10.0
+commands:
+    social:
+        usage: /social
+        description: Shows a list of all social stuff.
+permissions:
+    gamecraftpe.social:
+        default: true
+        description: Allows user to use /social
+        
+#SIDE NOTE - SOCIAL WILL BE MADE IN THE MAIN PLUGIN
