@@ -1,5 +1,5 @@
 <?php
-namespace GameCraftPE;
+namespace GameCraftPE\config;
 use pocketmine\utils\TextFormat;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
@@ -10,11 +10,11 @@ use pocketmine\Player;
 
 use GameCraftPE\Main;
 
-class Main extends PluginBase implements Listener{
+class github extends PluginBase implements Listener{
 	public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
         $cmd = strtolower($command->getName());
         switch ($cmd){
-            case "website":
+            case "github":
                 if (!($sender instanceof Player)){
                     $sender->sendMessage(TEXTFORMAT::GOLD . "--------[GITHUB]--------");
                     $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("git1"));
