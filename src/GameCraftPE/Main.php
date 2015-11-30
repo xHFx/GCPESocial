@@ -27,25 +27,25 @@ class Main extends PluginBase implements Listener{
                     $sender->sendMessage(TEXTFORMAT::BLUE . "--------[GCPESocial]--------");
                     $sender->sendMessage(TEXTFORMAT::GOLD . "-  Our Website!");
                     $sender->sendMessage(TEXTFORMAT::GREEN . "-  Use /website");
-                    $sender->sendMessage(TEXTFORMAT::GOLD . "-  Our Facebook! );
+                    $sender->sendMessage(TEXTFORMAT::GOLD . "-  Our Facebook!");
                     $sender->sendMessage(TEXTFORMAT::GREEN . "-  Use /facebook");
                     $sender->sendMessage(TEXTFORMAT::GOLD . "-  Our YouTube!");
                     $sender->sendMessage(TEXTFORMAT::GREEN . "-  Use /youtube");
-                    $sender->sendMessage(TEXTFORMAT::GOLD . "-  Our GitHub!);
+                    $sender->sendMessage(TEXTFORMAT::GOLD . "-  Our GitHub!");
                     $sender->sendMessage(TEXTFORMAT::GREEN . "-  Use /github");
                     return true;
                 }
                 $player = $this->getServer()->getPlayer($sender->getName());
                 if ($player->hasPermission("gamecraftpe.social")){
-                    $sender->sendMessage("§3"--------[GCPESocial]--------);
-                    $sender->sendMessage("§2-  Our Website!);
-                    $sender->sendMessage("§a-  Use /website);
-                    $sender->sendMessage("§2-  Our Facebook!);
-                    $sender->sendMessage("§a-  Use /facebook);
-                    $sender->sendMessage("§2-  Our YouTube!);
-                    $sender->sendMessage("§a-  Use /youtube);
-                    $sender->sendMessage("§2-  Our GitHub!);
-                    $sender->sendMessage("§a-  Use /github); 
+                    $sender->sendMessage("§3--------[GCPESocial]--------");
+                    $sender->sendMessage("§2-  Our Website!");
+                    $sender->sendMessage("§a-  Use /website");
+                    $sender->sendMessage("§2-  Our Facebook!");
+                    $sender->sendMessage("§a-  Use /facebook");
+                    $sender->sendMessage("§2-  Our YouTube!");
+                    $sender->sendMessage("§a-  Use /youtube");
+                    $sender->sendMessage("§2-  Our GitHub!");
+                    $sender->sendMessage("§a-  Use /github"); 
                     return true;
                 }
                 break;
