@@ -1,5 +1,5 @@
 <?php
-namespace GameCraftPE;
+namespace GameCraftPE\config;
 use pocketmine\utils\TextFormat;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\Listener;
@@ -10,7 +10,7 @@ use pocketmine\Player;
 
 use GameCraftPE\Main;
 
-class Main extends PluginBase implements Listener{
+class facebook extends PluginBase implements Listener{
 	public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
         $cmd = strtolower($command->getName());
         switch ($cmd){
