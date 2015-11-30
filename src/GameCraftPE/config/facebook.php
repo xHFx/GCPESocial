@@ -14,7 +14,7 @@ class facebook extends PluginBase implements Listener{
 	public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
         $cmd = strtolower($command->getName());
         switch ($cmd){
-            case "website":
+            case "facebook":
                 if (!($sender instanceof Player)){
                     $sender->sendMessage(TEXTFORMAT::GOLD . "--------[FACEBOOK]--------");
                     $sender->sendMessage(TEXTFORMAT::GREEN . "- " . $this->getConfig()->get("fb1"));
