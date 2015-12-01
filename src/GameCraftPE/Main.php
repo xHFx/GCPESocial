@@ -37,7 +37,7 @@ class Main extends PluginBase implements Listener{
                 }
                 $player = $this->getServer()->getPlayer($sender->getName());
                 if ($player->hasPermission("gamecraftpe.social")){
-                    $sender->sendMessage("§3--------[GCPESocial]--------");//will you add it here//
+                    $sender->sendMessage("§3 " . $this->getConfig->get("name"));
                     $sender->sendMessage("§2-  Our Website!");
                     $sender->sendMessage("§a-  Use /website");
                     $sender->sendMessage("§2-  Our Facebook!");
