@@ -14,7 +14,7 @@ use GameCraftPE\config\facebook;
 use GameCraftPE\config\youtube;
 
 class Main extends PluginBase implements Listener{
-	public function onEnable(){
+	public function onEnable(){h
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->saveDefaultConfig();
 		$this->getLogger()->info(TEXTFORMAT::GOLD . "[--GCPESocial--]" .TEXTFORMAT::RED. " --> -->" .TEXTFORMAT::AQUA.  " Social Success! GCPESocial is Active on Version ".$this->getDescription()->getVersion());
@@ -24,7 +24,7 @@ class Main extends PluginBase implements Listener{
         switch ($cmd){
             case "social":
                 if (!($sender instanceof Player)){
-                    $sender->sendMessage(TEXTFORMAT::BLUE . "--------[GCPESocial]--------");
+                    $sender->sendMessage(TEXTFORMAT::BLUE . "- " . $this->getConfig()->get("name"));
                     $sender->sendMessage(TEXTFORMAT::GOLD . "-  Our Website!");
                     $sender->sendMessage(TEXTFORMAT::GREEN . "-  Use /website");
                     $sender->sendMessage(TEXTFORMAT::GOLD . "-  Our Facebook!");
@@ -37,7 +37,7 @@ class Main extends PluginBase implements Listener{
                 }
                 $player = $this->getServer()->getPlayer($sender->getName());
                 if ($player->hasPermission("gamecraftpe.social")){
-                    $sender->sendMessage("§3--------[GCPESocial]--------");
+                    $sender->sendMessage("§3--------[GCPESocial]--------");//will you add it here//
                     $sender->sendMessage("§2-  Our Website!");
                     $sender->sendMessage("§a-  Use /website");
                     $sender->sendMessage("§2-  Our Facebook!");
