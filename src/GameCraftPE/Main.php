@@ -14,7 +14,7 @@ use GameCraftPE\config\facebook;
 use GameCraftPE\config\youtube;
 
 class Main extends PluginBase implements Listener{
-	public function onEnable(){h
+	public function onEnable(){
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->saveDefaultConfig();
 		$this->getLogger()->info(TEXTFORMAT::GOLD . "[--GCPESocial--]" .TEXTFORMAT::RED. " --> -->" .TEXTFORMAT::AQUA.  " Social Success! GCPESocial is Active on Version ".$this->getDescription()->getVersion());
